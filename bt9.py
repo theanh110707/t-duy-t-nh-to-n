@@ -1,0 +1,25 @@
+n = int(input("nhap 1 so:  "))
+
+match n:
+    case 0:
+        print("Khong")
+    case 1:
+        print("Mot")
+    case 2:
+        print("Hai")
+    case 3:
+        print("Ba")
+    case 4:
+        print("Bon")
+    case 5:
+        print("Nam")
+    case 6:
+        print("Sau")
+    case 7:
+        print("Bay")
+    case 8:
+        print("Tam")
+    case 9:
+        print("Chin")
+    case _:
+        print("nhap lai")
